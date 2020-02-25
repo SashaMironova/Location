@@ -1,0 +1,45 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.ifmo.se.droidscan.location"
+4    android:versionCode="1"
+5    android:versionName="1.0" > <!-- разрешение на использование и Gps, и нетворк -->
+6    <uses-sdk
+6-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:9:5-47
+7        android:minSdkVersion="8"
+7-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:9:5-47
+8        android:targetSdkVersion="28" />
+8-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:9:15-44
+9
+10    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+10-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:7:5-78
+10-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:7:22-76
+11
+12    <application
+12-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:11:5-24:19
+13        android:allowBackup="true"
+13-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:12:9-35
+14        android:debuggable="true"
+15        android:label="@string/app_name"
+15-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:13:9-41
+16        android:theme="@style/AppTheme" >
+16-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:14:9-40
+17        <activity
+17-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:15:9-23:20
+18            android:name="ru.ifmo.se.droidscan.MainActivity"
+18-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:16:13-61
+19            android:label="@string/app_name" >
+19-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:17:13-45
+20            <intent-filter>
+20-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:18:13-22:29
+21                <action android:name="android.intent.action.MAIN" />
+21-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:19:17-69
+21-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:19:25-66
+22
+23                <category android:name="android.intent.category.LAUNCHER" />
+23-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:21:17-77
+23-->C:\Users\Sasha\AndroidStudioProjects\Location\app\src\main\AndroidManifest.xml:21:27-74
+24            </intent-filter>
+25        </activity>
+26    </application>
+27
+28</manifest>
